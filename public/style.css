@@ -120,8 +120,7 @@ body {
   align-items: center;
   height: 66px;
   width: 66px;
-  background-image: url('../assets/img/story-circle.svg');
-  
+  background-image: url('img/story-circle.svg');  
 }
 
 .story .imagem img {
@@ -310,6 +309,10 @@ body {
   display: none !important;
 }
 
+.liked {
+  color: red;
+}
+
 @media (max-width: 935px) {
   .sidebar {
     display: none;
@@ -399,4 +402,3 @@ ion-icon {
 .usuario ion-icon {
   margin-left: 5px;
 }
-
